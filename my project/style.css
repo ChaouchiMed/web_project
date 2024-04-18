@@ -1,0 +1,192 @@
+
+
+
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+
+
+}
+/* Styles du header */ 
+header {
+    background-image: url(./image/2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Ajustez la hauteur selon vos besoins */
+}
+
+
+.header-2 {
+    background-image: url(./image/3.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+.logo a{
+
+    color: brown;
+    padding: 0px 20px;
+    border: 1px solid #fff;
+    position: absolute;
+    top 10px;
+    left: 10px ;
+    text-transform: uppercase;
+    text-decoration: none;
+font-weight: 900;
+text-shadow: rgba(0, 0, 0, alpha);
+
+}
+
+.logo span{
+color: (238, 56, 11);
+
+font-weight: bold;
+font-size:2rem;
+
+}
+
+ul{
+
+list-style: none;
+float: right;
+display: flex;
+margin-top: 20px;
+
+
+
+}
+
+ul li a{
+
+text-decoration: none;
+color: brown;
+padding: 10px 20px;
+text-transform: uppercase;
+border: 1px solid transparent;
+margin: 10px;
+font-weight: 500;
+transition: 0,6s ease;
+
+}
+
+ul li a:hover{
+    background: rosybrown;
+color: #000;
+
+}
+ul li.active a{
+
+
+    background: #fff; 
+}
+.principal{
+
+    max-width: 114rem;
+    margin: 0 auto;
+}
+.title{
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+/* Styles pour le formulaire */
+/* Styles pour le formulaire */
+.container { 
+    margin: 0px auto;
+    padding: 20px;
+    border: 5px solid #333;
+    max-width: 250px;
+    background-color: rgba(245, 138, 138, 0.75);
+    border-radius: 10px;
+    
+    
+    }
+    
+
+
+
+/* Styles pour les étiquettes (labels) */
+label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* Styles pour les champs de saisie (input) */
+input[type="text"],
+input[type="tel"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+/* Style pour le bouton d'envoi */
+input[type="submit"] {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+/* Styles du footer */
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer .container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap; /* Pour s'adapter aux petits écrans */
+}
+
+footer .address {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+footer .page-links {
+    font-size: 12px;
+}
+
+footer .page-links a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+footer .social-icons a {
+    color: #fff;
+    font-size: 24px;
+    margin: 0 10px;
+}
+
+footer .copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 20px;
+}
+
